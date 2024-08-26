@@ -7,5 +7,6 @@ namespace Restaurante.Entities
         [ForeignKey(nameof(Mesa))]
         public Mesa Mesa { get; set; }
         public string nombreCliente { get; set; }
+        public string codigoComanda { get; set; } //Se agrego codigo unico alfanumerico de 5 caracteres
     }
 }

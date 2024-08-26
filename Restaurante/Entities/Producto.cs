@@ -10,4 +10,5 @@ namespace Restaurante.Entities
         public int Stock { get; set; } 
         public float Precio { get; set; }
     }
+
 }

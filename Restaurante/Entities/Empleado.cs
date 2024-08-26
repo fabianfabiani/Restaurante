@@ -17,4 +17,5 @@ namespace Restaurante.Entities
         public int IdRol { get; set; }
 
     }
+
 }

@@ -11,7 +11,7 @@ namespace Restaurante.Entities
         public Comanda Comanda { get; set; }
 
         [ForeignKey(nameof(Estado))]
-        public Estado Estado { get; set; }
+        public EstadoMesa Estado { get; set; } //Se corrijio
         public int Cantidad { get; set; }
 
         public DateTime FechaCreacion { get; set; }
