@@ -3,7 +3,7 @@ using Restaurante.Dto;
 
 namespace Restaurante.Controllers
 {
-    [Route("api/controller")]
+    [Route("api/[controller]")]
     [ApiController]
 
     public class MesasController : Controller

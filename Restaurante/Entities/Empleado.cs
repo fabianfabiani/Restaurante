@@ -4,10 +4,12 @@ namespace Restaurante.Entities
 {
     public class Empleado : ClaseBase
     {
-        [ForeignKey(nameof(Sector))]
+        public int SectorId { get; set; }
+        [ForeignKey(nameof(SectorId))]
         public Sector Sector { get; set; }
 
-        [ForeignKey(nameof(Rol))]
+        public int RolId { get; set; }
+        [ForeignKey(nameof(RolId))]
         public Rol Rol { get; set; }
 
         public string Nombre { get; set; }

@@ -4,7 +4,7 @@ using Restaurante.Dto;
 namespace Restaurante.Controllers
 {
     [ApiController]
-    [Route("api/controller")]
+    [Route("api/[controller]")]
     public class InformesController : Controller
     {
         [HttpGet("GetIngresos")]

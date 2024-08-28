@@ -2,11 +2,15 @@
 
 namespace Restaurante.Entities
 {
-    public class Comanda:ClaseBase
+    public class Comanda : ClaseBase
     {
-        [ForeignKey(nameof(Mesa))]
+        // Propiedad de clave foránea explícita para Mesa
+        public int MesaId { get; set; }
+
+        [ForeignKey(nameof(MesaId))]
         public Mesa Mesa { get; set; }
+
         public string nombreCliente { get; set; }
-        public string codigoComanda { get; set; } //Se agrego codigo unico alfanumerico de 5 caracteres
+        public string codigoComanda { get; set; } // Se agregó código único alfanumérico de 5 caracteres
     }
 }

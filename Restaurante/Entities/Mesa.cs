@@ -4,8 +4,12 @@ namespace Restaurante.Entities
 {
     public class Mesa : ClaseBase
     {
-        [ForeignKey(nameof(EstadoMesa))]
+        // Propiedad de clave foránea explícita para EstadoMesa
+        public int EstadoMesaId { get; set; }
+
+        [ForeignKey(nameof(EstadoMesaId))]
         public EstadoMesa EstadoMesa { get; set; }
+
         public string Nombre { get; set; }
     }
 }
