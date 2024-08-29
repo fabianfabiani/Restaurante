@@ -1,9 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Restaurante.Data;
 using Restaurante.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+//--------------Services------------------------ Se agrego para la coneccion con DB
+builder.Services.AddDbContext<DataBaseContext>(op => op.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionStringEF")));  
 
 
 builder.Services.AddControllers();

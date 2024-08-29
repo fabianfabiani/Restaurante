@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Restaurante.Data;
 using Restaurante.Dto;
 
 namespace Restaurante.Controllers
@@ -7,11 +9,31 @@ namespace Restaurante.Controllers
     [ApiController]
     public class EmpleadosController : Controller
     {
+        protected readonly DataBaseContext _context; //Se Agrego para la coneccion con la BD
+        public EmpleadosController(DataBaseContext context) //Se Agrego para la coneccion con la BD
+        {
+            _context = context;
+        }
+
         [HttpGet("GetAll")]
         public async Task<ActionResult<List<EmpleadoResponseDto>>> GetAll()
         {
-            return base.Ok(new {message = "Estos son todos los empleados"}); // Ajusta la lógica según sea necesario
+            //return base.Ok(new {message = "Estos son todos los empleados"}); // Ajusta la lógica según sea necesario
+                                                                             // Consulta de la base de datos para obtener todos los empleados
+            var empleados = await _context.Empleados.ToListAsync();
+
+            // Mapea los empleados a EmpleadoResponseDto
+            var empleadosResponseDto = empleados.Select(e => new EmpleadoResponseDto
+            {
+                Id = e.Id,
+                Nombre = e.Nombre,
+                Usuario = e.Usuario,
+            }).ToList();
+
+            // Retorna la lista de empleados mapeados a DTO
+            return Ok(empleadosResponseDto);
         }
+    
 
         [HttpGet("GetById/{idEmpleado}")]
         public async Task<ActionResult<EmpleadoResponseDto>> GetById(int idEmpleado)
