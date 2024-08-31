@@ -20,6 +20,8 @@ namespace Restaurante.Controllers
             return base.Ok(new { message = "Estos son los detalles de la mesa" });
         }
 
+        
+
         [HttpPost("Update")]
         public async Task<ActionResult<MesaResponseDto>> Update(int idMesa, MesaRequestDto mesa)
         {

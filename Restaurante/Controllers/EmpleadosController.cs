@@ -38,7 +38,20 @@ namespace Restaurante.Controllers
         [HttpGet("GetById/{idEmpleado}")]
         public async Task<ActionResult<EmpleadoResponseDto>> GetById(int idEmpleado)
         {
-            return Ok(new { message = "Este es el empleado buscado por Id" });
+            //return Ok(new { message = "Este es el empleado buscado por Id" });
+            var empleado = await _context.Empleados
+                .Where(e => e.Id == idEmpleado)
+                .Select(e => new EmpleadoResponseDto
+                {
+                    Id = e.Id,
+                    Nombre = e.Nombre,
+                    Usuario = e.Usuario,
+                    IdRol = e.RolId
+                })
+                .FirstOrDefaultAsync();
+            return Ok(empleado);
+            //var empleadoBuscado = empleados.Where(x => x.Id == idEmpleado);
+            //return Ok(empleadoBuscado);
         }
 
         [HttpPost("Create")]
