@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Restaurante.Data;
 using Restaurante.Dto;
+using Restaurante.Entities;
 
 namespace Restaurante.Controllers
 {
@@ -18,8 +19,6 @@ namespace Restaurante.Controllers
         [HttpGet("GetAll")]
         public async Task<ActionResult<List<EmpleadoResponseDto>>> GetAll()
         {
-            //return base.Ok(new {message = "Estos son todos los empleados"}); // Ajusta la lógica según sea necesario
-                                                                             // Consulta de la base de datos para obtener todos los empleados
             var empleados = await _context.Empleados.ToListAsync();
 
             // Mapea los empleados a EmpleadoResponseDto
@@ -38,26 +37,43 @@ namespace Restaurante.Controllers
         [HttpGet("GetById/{idEmpleado}")]
         public async Task<ActionResult<EmpleadoResponseDto>> GetById(int idEmpleado)
         {
-            //return Ok(new { message = "Este es el empleado buscado por Id" });
-            var empleado = await _context.Empleados
+            var empleado = await _context.Empleados.Include(x=>x.Rol)
                 .Where(e => e.Id == idEmpleado)
                 .Select(e => new EmpleadoResponseDto
                 {
                     Id = e.Id,
                     Nombre = e.Nombre,
                     Usuario = e.Usuario,
-                    IdRol = e.RolId
+                    Rol = e.Rol.Descripcion
                 })
                 .FirstOrDefaultAsync();
             return Ok(empleado);
-            //var empleadoBuscado = empleados.Where(x => x.Id == idEmpleado);
-            //return Ok(empleadoBuscado);
         }
 
         [HttpPost("Create")]
         public async Task<ActionResult<EmpleadoResponseDto>> Create(EmpleadoRequestCreateDto empleado)
         {
-            return Ok(new { Message = "Usted ha creado un empleado" });
+            var nuevoEmpleado = new Empleado
+            {
+                Nombre = empleado.Nombre,
+                Usuario = empleado.Usuario,
+                Password = empleado.Password,
+                RolId = empleado.IdRol,
+                SectorId = empleado.IdSector
+            };
+
+            _context.Empleados.Add(nuevoEmpleado);
+            _context.SaveChanges();
+
+            var empleadoResponse = new EmpleadoResponseDto
+            {
+                Id = nuevoEmpleado.Id,
+                Nombre = nuevoEmpleado.Nombre,
+                Usuario = nuevoEmpleado.Usuario,
+                Rol = (await _context.Roles.FindAsync(nuevoEmpleado.RolId)).Descripcion,
+                Sector = (await _context.Sectores.FindAsync(nuevoEmpleado.SectorId)).descripcion
+            };
+            return Ok(new { message = "Usted ha creado un nuevo empleado", Empleado = empleadoResponse });
         }
 
         [HttpPut("Update/{idEmpleado}")]

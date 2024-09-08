@@ -76,3 +76,48 @@ select * from Sectores
 		(4,4,'Pepe','pepe','1111');
 	go;
 	Select * from Empleados
+
+/* 7 de septiembre.
+Se agregaron mesas con su descripcion por ejemplo 'Mesa para 4'
+Estas tienen una relacion de una a muchas con EstadoMesas, lo que significa que la mesa puede estar 
+cliente esperando pedido
+cliente comiendo
+cliente pagando
+cerrada
+Para nuestra logica y para no generar otro campo más como podria ser: Mesa 'Libre', vamos a tomar que cuando creamos
+una Mesa nos cree el campo
+EstadoMesaId = 4
+
+Modificamos la tabla para que por default sea 4 (cerrada)
+La idea es que cuando se cree una nueva comanda , se supone que esa mesa esta libre (cerrada)
+entonces pase al estado 1 (cliente esperando pedido)
+*/
+ALTER TABLE Mesas
+ADD CONSTRAINT DF_Mesas_EstadoMesaId DEFAULT 1 FOR EstadoMesaId;
+
+/*cargamos Mesas*/
+ insert into Mesas(Nombre)
+  values('mesa para 6'),
+		('mesa para 6'),
+		('mesa para 8'),
+		('terraza para 4'),
+		('terraza para 6')
+select * from Mesas
+
+
+/*Nota:
+No se puede Generar un pedido si no existe una comanda
+Para crear una comanda necesitamos :
+Id que es el numero de mesa, y su nombre significa donde queda y para cuantas personas es la mesa.
+nombreCliente : El nombre del cliente
+codigoComanda : Es un código Alfanumerico de 5 caracteres
+
+Ahora si podemos crear un pedido ya que tenemos el Id de la comanda (ComandaId)
+para crear el pedido necesitamos:
+ProductoId : Este ya esta precargado, según su Id es el producto relacionado.
+ComandaId : La comanda generada para esa mesa y cliente (Deberia de existir para poder crear el pedido).
+EstadoId : Son 3 los estados posibles, "Pendiente", "En preparación" y "Listo para servir"
+Cantidad: La cantidad del producto solicitado.
+FechaCreacion : Se auto completa con la fecha del dia generado el pedido.
+*/
+

@@ -44,9 +44,31 @@ namespace Restaurante.Controllers
         }
 
         [HttpPost("create")]
-        public async Task<ActionResult<PedidoResponseDto>> CreatePedido(PedidoRequestDto pedido)
+        public async Task<ActionResult> CreatePedido(PedidoRequestDto pedido)
         {
-            return base.Ok(new {message="Usted ha creado un pedido"});
+            var nuevoPedido = new Pedido
+            {
+                ProductoId = pedido.ProductoId,
+                ComandaId = pedido.ComandaId,
+                EstadoId = pedido.EstadoId,
+                Cantidad = pedido.Cantidad,
+                FechaCreacion = DateTime.Now.Date,
+                FechaFinalizacion = pedido.FechaFinalizacion?.Date //.Date formatea para que solo se muestre la fecha
+            };
+            _context.Pedidos.Add(nuevoPedido);
+            await _context.SaveChangesAsync();
+
+            var pedidoResponse = new PedidoResponseDto
+            {
+                Producto = (await _context.Productos.FindAsync(nuevoPedido.ProductoId)).Descripcion,
+                CodigoComanda = nuevoPedido.ComandaId,
+                Estado = (await _context.EstadoMesa.FindAsync(nuevoPedido.EstadoId)).Descripcion,
+                Cantidad = nuevoPedido.Cantidad,
+                FechaCreacion = nuevoPedido.FechaCreacion,
+                FechaFinalizacion = nuevoPedido.FechaFinalizacion
+
+            };
+            return Ok(new { message = "Ha creado un pedido nuevo", Pedido = pedidoResponse });
         }
 
         [HttpPut("actualizarEstado/{codigoPedido}/{nuevoEstado}")]
