@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Restaurante.Data;
 using Restaurante.Dto;
 using Restaurante.Entities;
+using Restaurante.Interface;
 
 namespace Restaurante.Controllers
 {
@@ -11,61 +12,39 @@ namespace Restaurante.Controllers
  
     public class MesasController : Controller
     {
-        private readonly DataBaseContext _context;
-        public MesasController(DataBaseContext context)
+        private readonly IMesaService _mesaService;
+        public MesasController(IMesaService mesaService)
         {
-            _context = context;
+            _mesaService = mesaService;
         }
 
         [HttpGet("GetAll")]
         public async Task<ActionResult<MesaResponseDto>> GeTAll()
         {
-            var mesas = await _context.Mesas
-                .Include(m => m.EstadoMesa)
-                .ToListAsync();
-            var mesaResponse = mesas.Select(x => new MesaResponseDto
-            {
-                Id = x.Id,
-                Nombre = x.Nombre,
-                EstadoMesa = x.EstadoMesa.Descripcion
-            }).ToList();
-
-            return Ok(new { Message = "Listado de mesas", Mesas = mesaResponse});
+            
+            var mesaResponseDto = await _mesaService.GeTAll();
+            return Ok(new { Message = "Listado de mesas", Mesas = mesaResponseDto});
+        }
+        
+        [HttpPost("Create")]
+        public async Task<ActionResult<MesaResponseDto>> CrearMesa([FromBody] MesaRequestDto mesa)
+        {
+           var mesaResponseDto = await _mesaService.CrearMesa(mesa);
+            return Ok(new {message="Se agrego una mesa", Mesa=mesaResponseDto});
         }
 
+        /*
         [HttpGet("GetById/{idMesa}")]
         public async Task<ActionResult<MesaResponseDto>> GetById(int idMesa)
         {
             return base.Ok(new { message = "Estos son los detalles de la mesa" });
         }
 
-        [HttpPost("Create")]
-        public async Task<ActionResult<MesaResponseDto>> CrearMesa([FromBody] MesaRequestDto mesa)
-        {
-            var nuevaMesa = new Mesa
-            {
-                EstadoMesaId = mesa.EstadoMesa,
-                Nombre = mesa.Nombre,
-            };
-            _context.Mesas.Add(nuevaMesa);
-            await _context.SaveChangesAsync();
-
-            var estadoMesa = await _context.EstadoMesa.FindAsync(nuevaMesa.EstadoMesaId);
-            var mesaResponse = new MesaResponseDto
-            {
-                Id = nuevaMesa.Id,
-                EstadoMesa = estadoMesa.Descripcion,
-                Nombre = nuevaMesa.Nombre
-            };
-            return Ok(new {message="Se agrego una mesa", Mesa=mesaResponse});
-        }
-        
-
         [HttpPost("Update")]
         public async Task<ActionResult<MesaResponseDto>> Update(int idMesa, MesaRequestDto mesa)
         {
             return base.Ok(new { message = "Mesa actualizada" });
         }
-
+        */
     }
 }

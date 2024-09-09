@@ -77,7 +77,9 @@ select * from Sectores
 	go;
 	Select * from Empleados
 
+
 /* 7 de septiembre.
+******IMPORTANTE 1 *******
 Se agregaron mesas con su descripcion por ejemplo 'Mesa para 4'
 Estas tienen una relacion de una a muchas con EstadoMesas, lo que significa que la mesa puede estar 
 cliente esperando pedido
@@ -88,9 +90,12 @@ Para nuestra logica y para no generar otro campo más como podria ser: Mesa 'Libr
 una Mesa nos cree el campo
 EstadoMesaId = 4
 
+*****IMPORTANTE 2 *******
 Modificamos la tabla para que por default sea 4 (cerrada)
 La idea es que cuando se cree una nueva comanda , se supone que esa mesa esta libre (cerrada)
 entonces pase al estado 1 (cliente esperando pedido)
+Dentro de la creacion de comanda no tenemos el campo EstadoMesa, pero cuando se ejecute la una nueva comanda deberia ejecutarse una 
+logica que nos modifique esa mesa o haga un Update en la tabla Mesas en el campo EstadoMesaId = 1 ("cliente esperando pedido") 
 */
 ALTER TABLE Mesas
 ADD CONSTRAINT DF_Mesas_EstadoMesaId DEFAULT 1 FOR EstadoMesaId;
@@ -105,7 +110,8 @@ ADD CONSTRAINT DF_Mesas_EstadoMesaId DEFAULT 1 FOR EstadoMesaId;
 select * from Mesas
 
 
-/*Nota:
+/* IMPORTANTE 3 
+Nota:
 No se puede Generar un pedido si no existe una comanda
 Para crear una comanda necesitamos :
 Id que es el numero de mesa, y su nombre significa donde queda y para cuantas personas es la mesa.
