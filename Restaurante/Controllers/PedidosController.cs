@@ -12,9 +12,11 @@ namespace Restaurante.Controllers
     public class PedidosController : Controller
     {
         private readonly IPedidoService _pedidoService;
-        public PedidosController(IPedidoService pedidoService)
+        private readonly DataBaseContext _context;
+        public PedidosController(IPedidoService pedidoService, DataBaseContext context)
         {
             _pedidoService = pedidoService;
+            _context = context;
         }
 
         [HttpGet("GetAllPedidos")]
@@ -30,7 +32,31 @@ namespace Restaurante.Controllers
             var pedidoResponseDto = await _pedidoService.CrearPedido(pedido);
             return Ok(new { message = "Ha creado un nuevo pedido", Pedido = pedidoResponseDto });
         }
-        
+
+        [HttpPost("UpdateEstadoPedido")]
+        public async Task<IActionResult> ActualizarEstado(int id)
+        {
+            // Llama al servicio para actualizar el estado del pedido
+            await _pedidoService.ActualizarEstadoPedido(id);
+
+            // Consulta el estado actualizado del pedido desde la base de datos
+            var pedidoActualizado = await _context.Pedidos
+                .Include(p => p.EstadoPedido) // Incluye la tabla de EstadoPedido para obtener la descripción
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+            if (pedidoActualizado == null)
+            {
+                return NotFound("Pedido no encontrado.");
+            }
+
+            // Obtiene la descripción del estado actualizado
+            var estadoActual = pedidoActualizado.EstadoPedido.Descripcion;
+
+            // Retorna la respuesta con el estado actualizado
+            return Ok($"Se actualizó el estado de su pedido a '{estadoActual}'");
+        }
+
+
 
         /*
         [HttpGet("getPorCodigoPedido/{codigoPedido}")]

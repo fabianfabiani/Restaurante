@@ -32,6 +32,7 @@ namespace Restaurante.Data
         public virtual DbSet<Producto> Productos { get; set; }
         public virtual DbSet<Rol> Roles { get; set; }
         public virtual DbSet<Sector> Sectores { get; set; }
+        public virtual DbSet<EstadoPedido> EstadoPedido { get; set; }
     }
 
 

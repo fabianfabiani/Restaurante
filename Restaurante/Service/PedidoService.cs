@@ -36,6 +36,14 @@ namespace Restaurante.Service
 
         public async Task<ActionResult<PedidoResponseDto>> CrearPedido(PedidoRequestDto pedido)
         {
+            Producto? p = _context.Productos.Where(p => p.Id == pedido.ProductoId).FirstOrDefault();
+            if (p == null)
+            {
+                throw new Exception("Producto inexistente, no puede cargar pedido");
+            }
+            p.ReducirStock(pedido.Cantidad);
+            this._context.Productos.Update(p);
+
             var nuevoPedido = new Pedido
             {
                 ProductoId = pedido.ProductoId,
@@ -59,6 +67,52 @@ namespace Restaurante.Service
 
             };
             return pedidoResponse;
+        }
+
+        public async Task ActualizarEstadoPedido(int pedidoId)
+        {
+            // Recuperamos el pedido desde la base de datos
+            var pedido = await _context.Pedidos.FindAsync(pedidoId);
+            if (pedido == null)
+            {
+                throw new Exception("Pedido no encontrado.");
+            }
+
+            // Recuperamos el estado actual del pedido desde la base de datos
+            var estadoActual = await _context.EstadoPedido.FindAsync(pedido.EstadoId);
+            if (estadoActual == null)
+            {
+                throw new Exception("Estado del pedido no encontrado.");
+            }
+
+            // Verificamos si el estado actual es 'Finalizado'
+            if (estadoActual.Descripcion == "Finalizado")
+            {
+                throw new Exception("No se puede actualizar el estado de un pedido finalizado.");
+            }
+
+            // Si el estado actual es 'En Preparación', actualizamos la fecha de finalización
+            if (estadoActual.Descripcion == "En Preparación")
+            {
+                pedido.FechaFinalizacion = DateTime.Now;
+            }
+
+            // Obtener el siguiente estado (según la lógica de negocio)
+            var siguienteEstado = await _context.EstadoPedido
+                .OrderBy(e => e.Id)
+                .FirstOrDefaultAsync(e => e.Id > pedido.EstadoId);
+
+            if (siguienteEstado == null)
+            {
+                throw new Exception("No hay un siguiente estado disponible.");
+            }
+
+            // Actualizar el EstadoId del pedido con el nuevo estado
+            pedido.EstadoId = siguienteEstado.Id;
+            pedido.EstadoPedido = siguienteEstado;
+
+            // Guardamos los cambios en la base de datos
+            await _context.SaveChangesAsync();
         }
     }
 }

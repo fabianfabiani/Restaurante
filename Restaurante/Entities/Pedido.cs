@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Restaurante.Data;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Restaurante.Entities
 {
     public class Pedido:ClaseBase
     {
+        private DataBaseContext _context;
         public int ProductoId { get; set; }
         [ForeignKey(nameof(ProductoId))]
         public Producto Producto { get; set; }
@@ -20,6 +22,8 @@ namespace Restaurante.Entities
         public DateTime FechaCreacion { get; set; }
         public DateTime? FechaFinalizacion { get; set; }
 
+
+        
 
     }
 }
