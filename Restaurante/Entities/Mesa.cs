@@ -8,7 +8,7 @@ namespace Restaurante.Entities
         public int EstadoMesaId { get; set; }
 
         [ForeignKey(nameof(EstadoMesaId))]
-        public EstadoMesa? EstadoMesa { get; set; }
+        public EstadoMesa? EstadoMesa{ get; set; }
 
         public string Nombre { get; set; }
     }

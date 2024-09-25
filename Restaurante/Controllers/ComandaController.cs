@@ -18,10 +18,10 @@ namespace Restaurante.Controllers
         }
        
         [HttpPost]
-        public async Task<ActionResult> CrearComanda(ComandaRequestDto comanda)
+        public async Task<IActionResult> CrearComanda(ComandaRequestDto comanda)
         {
-            var comandaResponseDto = await _comandaService.CrearComanda(comanda);
-            return Ok(new { message = "Se creo una nueva comanda", Comanda = comandaResponseDto });
+            await _comandaService.CrearComanda(comanda);
+            return Ok(new { message = "Se creo una nueva comanda" });
 
         }
     }

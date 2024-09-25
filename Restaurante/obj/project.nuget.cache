@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "v5iX4bTLOu2kEu82FfIToLwIEhC65xJi5uVLPpcpkUHYUhH73evLe2UsdxRBwb77XBrgFaMTo30kOEYl3zulyQ==",
+  "dgSpecHash": "7sWGyFM/YOdBBeF/nCQWvTipygZ+n55hJOclPwonVP8PS1nMwBcNkFtFZRcxX1uj+SF6CLiTTKuxV/rOhgszTQ==",
   "success": true,
   "projectFilePath": "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\Restaurante\\Restaurante\\Restaurante.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Oeste\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Oeste\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Oeste\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Oeste\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

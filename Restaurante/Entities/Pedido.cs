@@ -6,6 +6,12 @@ namespace Restaurante.Entities
     public class Pedido:ClaseBase
     {
         private DataBaseContext _context;
+        public Pedido()
+        {
+            this.FechaCreacion = DateTime.Now;
+            this.EstadoId = 1;  // ID del estado "pendiente"
+            
+        }
         public int ProductoId { get; set; }
         [ForeignKey(nameof(ProductoId))]
         public Producto Producto { get; set; }
@@ -22,8 +28,7 @@ namespace Restaurante.Entities
         public DateTime FechaCreacion { get; set; }
         public DateTime? FechaFinalizacion { get; set; }
 
-
-        
+        public DateTime? FechaEstimadaDeFinalizacion { get; set; }
 
     }
 }

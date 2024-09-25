@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Restaurante.Data;
 using Restaurante.Dto;
@@ -10,42 +11,36 @@ namespace Restaurante.Service
     public class MesaService : IMesaService
     {
         private readonly DataBaseContext _context;
-        public MesaService(DataBaseContext context)
+        private readonly IMapper _mapper;
+        public MesaService(DataBaseContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
-        public async Task<ActionResult<List<MesaResponseDto>>> GeTAll()
+        public async Task<ActionResult<List<MesaListarDTO>>> GeTAll()
         {
             var mesas = await _context.Mesas
-                .Include(m => m.EstadoMesa)
+                .Include(c => c.EstadoMesa)
                 .ToListAsync();
-            var mesaResponse = mesas.Select(x => new MesaResponseDto
-            {
-                Id = x.Id,
-                Nombre = x.Nombre,
-                EstadoMesa = x.EstadoMesa.Descripcion
-            }).ToList();
+
+            var mesaResponse = _mapper.Map<List<MesaListarDTO>>(mesas);
 
             return mesaResponse;
         }
-        public async Task<ActionResult<MesaResponseDto>> CrearMesa([FromBody] MesaRequestDto mesa)
+        public async Task CrearMesa([FromBody] MesaRequestDto mesa)
         {
-            var nuevaMesa = new Mesa
+            // Verificar si el EstadoMesaId existe en la base de datos
+            Mesa? m = _context.Mesas.Where(m => m.EstadoMesaId == mesa.EstadoMesaId).FirstOrDefault();
+
+            if (m == null)
             {
-                EstadoMesaId = mesa.EstadoMesa,
-                Nombre = mesa.Nombre,
-            };
+                throw new Exception("EstadoMesaId inexistente");
+            }
+
+            var nuevaMesa = _mapper.Map<Mesa>(mesa);
             _context.Mesas.Add(nuevaMesa);
             await _context.SaveChangesAsync();
 
-            var estadoMesa = await _context.EstadoMesa.FindAsync(nuevaMesa.EstadoMesaId);
-            var mesaResponse = new MesaResponseDto
-            {
-                Id = nuevaMesa.Id,
-                EstadoMesa = estadoMesa.Descripcion,
-                Nombre = nuevaMesa.Nombre
-            };
-            return mesaResponse;
         }
     }
 }

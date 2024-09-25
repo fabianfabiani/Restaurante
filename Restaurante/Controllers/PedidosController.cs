@@ -4,6 +4,7 @@ using Restaurante.Data;
 using Restaurante.Dto;
 using Restaurante.Entities;
 using Restaurante.Interface;
+using System.ComponentModel.DataAnnotations;
 
 namespace Restaurante.Controllers
 {
@@ -20,17 +21,17 @@ namespace Restaurante.Controllers
         }
 
         [HttpGet("GetAllPedidos")]
-        public async Task<ActionResult<List<PedidoResponseDto>>> GetAllPedidos()
+        public async Task<ActionResult<List<PedidoRequestDto>>> GetAllPedidos()
         {
             var pedidosResponseDto = await _pedidoService.GetAllPedidos();
             return Ok(new {message ="Estos son todos los pedidos", Pedido = pedidosResponseDto});
         }
         
         [HttpPost("create")]
-        public async Task<ActionResult<PedidoResponseDto>> CrearPedido(PedidoRequestDto pedido)
+        public async Task<IActionResult> CrearPedido(PedidoRequestDto pedido)
         {
-            var pedidoResponseDto = await _pedidoService.CrearPedido(pedido);
-            return Ok(new { message = "Ha creado un nuevo pedido", Pedido = pedidoResponseDto });
+            await _pedidoService.CrearPedido(pedido);
+            return Ok(new { message = "Ha creado un nuevo pedido" });
         }
 
         [HttpPost("UpdateEstadoPedido")]
@@ -56,26 +57,33 @@ namespace Restaurante.Controllers
             return Ok($"Se actualizó el estado de su pedido a '{estadoActual}'");
         }
 
-
-
-        /*
-        [HttpGet("getPorCodigoPedido/{codigoPedido}")]
-        public async Task<ActionResult<PedidoResponseDto>> GetPorCodigoPedido(string codigoPedido)
+        [HttpGet("pendientes/empleado/{idEmpleado}")]
+        public async Task<ActionResult<List<PedidoListarDTO>>> ListarPedidosPendientesPorEmpleado(int idEmpleado)
         {
-            return base.Ok(new { message = "Este es el pedido que busca por su codigo" });
+            try
+            {
+                var pedidosPendientes = await _pedidoService.ListarPedidosPendientesPorEmpleado(idEmpleado);
+                return Ok(pedidosPendientes);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-        [HttpPut("actualizarEstado/{codigoPedido}/{nuevoEstado}")]
-        public async Task<ActionResult<PedidoResponseDto>> ActualizarEstado(string codigoPedido, string nuevoEstado)
+        [HttpPut("cambiarEstadoEnPreparacion/{pedidoId}")]
+        public async Task<ActionResult> CambiarEstadoEnPreparacion(int pedidoId, [FromQuery] DateTime tiempoPreparacion)
         {
-            return base.Ok(new {message="Usted ha actualizado un pedido"});
+            try
+            {
+                await _pedidoService.CambiarEstadoEnPreparacion(pedidoId, tiempoPreparacion);
+                return Ok("Estado cambiado a 'en preparación' y tiempo estimado actualizado."); // Mensaje de éxito
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message); // Retorna el mensaje de error en caso de que falle
+            }
         }
-
-        [HttpPut("tiempoEstimado/{codigoPedido}/{tiempoEstimado}")]
-        public async Task<ActionResult<PedidoResponseDto>> SetTiempoEstimado(string codigoPedido, TimeSpan tiempoEstimado)  // ¿Como se usa TimeSpan?
-        {
-            return base.Ok(new {message="este e el tiempo estimado de su pedido"});
-        }
-        */
+        
     }
 }

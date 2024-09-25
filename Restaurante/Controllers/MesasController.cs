@@ -19,7 +19,7 @@ namespace Restaurante.Controllers
         }
 
         [HttpGet("GetAll")]
-        public async Task<ActionResult<MesaResponseDto>> GeTAll()
+        public async Task<ActionResult<MesaListarDTO>> GeTAll()
         {
             
             var mesaResponseDto = await _mesaService.GeTAll();
@@ -27,10 +27,10 @@ namespace Restaurante.Controllers
         }
         
         [HttpPost("Create")]
-        public async Task<ActionResult<MesaResponseDto>> CrearMesa([FromBody] MesaRequestDto mesa)
+        public async Task<IActionResult> CrearMesa([FromBody] MesaRequestDto mesa)
         {
-           var mesaResponseDto = await _mesaService.CrearMesa(mesa);
-            return Ok(new {message="Se agrego una mesa", Mesa=mesaResponseDto});
+           await _mesaService.CrearMesa(mesa);
+            return Ok(new {message="Se agrego una mesa"});
         }
 
         /*

@@ -21,7 +21,7 @@ namespace Restaurante.Data
         {
             base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer(@"Server= FABIANI; Database=Restaurante; Trusted_Connection=True; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer(@"Server= FABIANI; Database=RestauranteAWS; Trusted_Connection=True; TrustServerCertificate=True");
 
         }
         public virtual DbSet<Comanda> Comandas { get; set; }

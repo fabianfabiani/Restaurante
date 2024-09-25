@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Restaurante.Data;
 using Restaurante.Dto;
@@ -10,34 +11,26 @@ namespace Restaurante.Service
     public class ComandaService : IComandaService
     {
         private readonly DataBaseContext _context;
-        public ComandaService(DataBaseContext context)
+        private readonly IMapper _mapper;
+        public ComandaService(DataBaseContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
-        public async Task<ActionResult<ComandaResponseDto>> CrearComanda(ComandaRequestDto comanda)
+        public async Task CrearComanda(ComandaRequestDto comanda)
         {
-            var nuevaComanda = new Comanda()
-            {
-                MesaId = comanda.MesaId,
-                nombreCliente = comanda.nombreCliente,
-                codigoComanda = comanda.codigoComanda
-            };
+            var nuevaComanda = _mapper.Map<Comanda>(comanda);
+
+            // Guardamos la nueva comanda en la base de datos
             _context.Comandas.Add(nuevaComanda);
             await _context.SaveChangesAsync();
 
+            // Obtenemos la información relacionada con la mesa
             var mesaConEstado = await _context.Mesas
                 .Include(x => x.EstadoMesa)
                 .FirstOrDefaultAsync(m => m.Id == nuevaComanda.MesaId);
 
-            var comandaResponse = new ComandaResponseDto()
-            {
-                Id = nuevaComanda.Id,
-                NombreMesa = mesaConEstado?.Nombre,
-                EstadoMesaDescripcion = mesaConEstado?.EstadoMesa.Descripcion,
-                NombreCliente = nuevaComanda.nombreCliente,
-                CodigoComanda = nuevaComanda.codigoComanda
-            };
-            return comandaResponse;
+            
         }
     }
 }

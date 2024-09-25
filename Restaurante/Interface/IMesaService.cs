@@ -5,7 +5,7 @@ namespace Restaurante.Interface
 {
     public interface IMesaService
     {
-        public Task<ActionResult<List<MesaResponseDto>>> GeTAll();
-        public Task<ActionResult<MesaResponseDto>> CrearMesa([FromBody] MesaRequestDto mesa);
+        public Task<ActionResult<List<MesaListarDTO>>> GeTAll();
+        public Task CrearMesa([FromBody] MesaRequestDto mesa);
     }
 }
