@@ -35,6 +35,8 @@
         {
             return $"{tiempo.Days} días, {tiempo.Hours} horas, {tiempo.Minutes} minutos";
         }
+
+        public string CodigoPedido { get; set; }
     }
 
 }

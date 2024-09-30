@@ -17,13 +17,13 @@ namespace Restaurante.Data
 
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer(@"Server= FABIANI; Database=RestauranteAWS; Trusted_Connection=True; TrustServerCertificate=True");
+        //    optionsBuilder.UseSqlServer(@"Server=FABIANI; Database=RestauranteC; Trusted_Connection=True; TrustServerCertificate=True");
 
-        }
+        //}
         public virtual DbSet<Comanda> Comandas { get; set; }
         public virtual DbSet<Empleado> Empleados { get; set; }
         public virtual DbSet<EstadoMesa> EstadoMesa { get; set; }

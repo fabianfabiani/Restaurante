@@ -8,5 +8,7 @@ namespace Restaurante.Dto
         public int ComandaId { get; set; } //Representa el identificador unico de la comanda
         public int Cantidad { get; set; }
 
+        public int EmpleadoId { get; set; }
+
     }
 }

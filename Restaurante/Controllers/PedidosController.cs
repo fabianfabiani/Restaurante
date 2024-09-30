@@ -24,38 +24,39 @@ namespace Restaurante.Controllers
         public async Task<ActionResult<List<PedidoRequestDto>>> GetAllPedidos()
         {
             var pedidosResponseDto = await _pedidoService.GetAllPedidos();
-            return Ok(new {message ="Estos son todos los pedidos", Pedido = pedidosResponseDto});
+            return Ok(new { message = "Estos son todos los pedidos", Pedido = pedidosResponseDto });
         }
-        
+
         [HttpPost("create")]
         public async Task<IActionResult> CrearPedido(PedidoRequestDto pedido)
         {
-            await _pedidoService.CrearPedido(pedido);
-            return Ok(new { message = "Ha creado un nuevo pedido" });
-        }
 
-        [HttpPost("UpdateEstadoPedido")]
-        public async Task<IActionResult> ActualizarEstado(int id)
-        {
-            // Llama al servicio para actualizar el estado del pedido
-            await _pedidoService.ActualizarEstadoPedido(id);
-
-            // Consulta el estado actualizado del pedido desde la base de datos
-            var pedidoActualizado = await _context.Pedidos
-                .Include(p => p.EstadoPedido) // Incluye la tabla de EstadoPedido para obtener la descripción
-                .FirstOrDefaultAsync(p => p.Id == id);
-
-            if (pedidoActualizado == null)
+            if (pedido.EmpleadoId <= 0) // Validar que el EmpleadoId sea válido
             {
-                return NotFound("Pedido no encontrado.");
+                return BadRequest(new { message = "El Empleado es obligatorio." });
             }
 
-            // Obtiene la descripción del estado actualizado
-            var estadoActual = pedidoActualizado.EstadoPedido.Descripcion;
-
-            // Retorna la respuesta con el estado actualizado
-            return Ok($"Se actualizó el estado de su pedido a '{estadoActual}'");
+            var codigoGenerado = await _pedidoService.CrearPedido(pedido);
+            return Ok(new { message = "Ha creado un nuevo pedido", codigoPedido = codigoGenerado });
         }
+
+
+
+
+
+
+      //  [HttpPost("UpdateEstadoPedido")]
+    //    public async Task<IActionResult> ActualizarEstado(int id)
+     /// <summary>
+     ///   {
+     /// </summary>
+     /// <param name=""></param>
+     /// <returns></returns>
+      //      await _pedidoService.ActualizarEstadoPedido(id);
+      //      return Ok("Estado del pedido actualizado.");
+      //  }
+
+        
 
         [HttpGet("pendientes/empleado/{idEmpleado}")]
         public async Task<ActionResult<List<PedidoListarDTO>>> ListarPedidosPendientesPorEmpleado(int idEmpleado)
@@ -71,12 +72,12 @@ namespace Restaurante.Controllers
             }
         }
 
-        [HttpPut("cambiarEstadoEnPreparacion/{pedidoId}")]
-        public async Task<ActionResult> CambiarEstadoEnPreparacion(int pedidoId, [FromQuery] DateTime tiempoPreparacion)
+        [HttpPost("cambiarEstadoEnPreparacion/{CodigoPedido}")]
+        public async Task<ActionResult> CambiarEstadoEnPreparacion(string CodigoPedido, [FromQuery] int empleadoId, DateTime tiempoPreparacion)
         {
             try
             {
-                await _pedidoService.CambiarEstadoEnPreparacion(pedidoId, tiempoPreparacion);
+                await _pedidoService.CambiarEstadoEnPreparacion(CodigoPedido, empleadoId, tiempoPreparacion);
                 return Ok("Estado cambiado a 'en preparación' y tiempo estimado actualizado."); // Mensaje de éxito
             }
             catch (Exception ex)
@@ -84,6 +85,21 @@ namespace Restaurante.Controllers
                 return NotFound(ex.Message); // Retorna el mensaje de error en caso de que falle
             }
         }
-        
+
+
+        [HttpPost("cambiarEstadoListoParaServir/{CodigoPedido}")]
+        public async Task<ActionResult> CambiarEstadoListoParaServir(string CodigoPedido, int empleadoId)
+        {
+            try
+            {
+                await _pedidoService.CambiarEstadoListoParaServir(CodigoPedido, empleadoId);
+                return Ok("Estado cambiado a 'listo para servir'.");
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
     }
 }

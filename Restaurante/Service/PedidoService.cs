@@ -33,24 +33,52 @@ namespace Restaurante.Service
             return respuesta;
         }
 
-        public async Task CrearPedido(PedidoRequestDto pedido)
+     
+
+        public async Task<string> CrearPedido(PedidoRequestDto pedido)
         {
-            Producto? p = _context.Productos.Where(p => p.Id == pedido.ProductoId).FirstOrDefault();
+            Producto? p = _context.Productos.FirstOrDefault(p => p.Id == pedido.ProductoId);
             if (p == null)
             {
                 throw new Exception("Producto inexistente, no puede cargar pedido");
             }
             p.ReducirStock(pedido.Cantidad);
-            this._context.Productos.Update(p);
+            _context.Productos.Update(p);
 
-
-            
             var nuevoPedido = _mapper.Map<Pedido>(pedido);
-            
+
+            // Genera el código único
+            nuevoPedido.CodigoPedido = GenerarCodigoUnico();
+
+            nuevoPedido.EmpleadoModificadorId = pedido.EmpleadoId;
 
             _context.Pedidos.Add(nuevoPedido);
             await _context.SaveChangesAsync();
 
+            return nuevoPedido.CodigoPedido; // Retorna el código generado
+        }
+
+        private string GenerarCodigoUnico()
+        {
+            // Obtén el último código en la base de datos para incrementar
+            var ultimoPedido = _context.Pedidos
+                .OrderByDescending(p => p.CodigoPedido)
+                .FirstOrDefault();
+
+            // Si no hay pedidos, comienza con P0001
+            if (ultimoPedido == null)
+            {
+                return "P0001";
+            }
+
+            // Extrae el número del último código
+            if (int.TryParse(ultimoPedido.CodigoPedido.Substring(1), out int ultimoNumero))
+            {
+                return $"P{ultimoNumero + 1:D4}"; // Incrementa el número
+            }
+
+            // Si el código no es válido, devuelve un código por defecto
+            return "P0001";
         }
 
         public async Task ActualizarEstadoPedido(int pedidoId)
@@ -123,32 +151,63 @@ namespace Restaurante.Service
         //    return Ok(pedidosPendientes);
         }
 
-        public async Task CambiarEstadoEnPreparacion(int pedidoId, DateTime tiempoPreparacion)   //Cambiar estado a en preparacion
+        public async Task CambiarEstadoEnPreparacion(string codigoPedido, int empleadoId, DateTime tiempoPreparacion) // Cambiar estado a en preparación
         {
             // Buscar el pedido en la base de datos
-            var pedido = await _context.Pedidos.FindAsync(pedidoId);
+            var pedido = await _context.Pedidos.FirstOrDefaultAsync(p => p.CodigoPedido == codigoPedido);
             if (pedido == null)
             {
                 throw new Exception("Pedido no encontrado");
             }
 
-            // Obtener el estado "En Preparación"  // Nooo ¡¡ debe buscar los estados pendiente
-            var estadoEnPreparacion = await _context.EstadoPedido
-                .FirstOrDefaultAsync(e => e.Descripcion == "en preparacion"); //Aca cambiar por pendiente
-            if (estadoEnPreparacion == null)
+            // Obtener el estado "pendiente" (asumiendo que el ID correspondiente es 2)
+            var estadoPendiente = await _context.EstadoPedido
+                .FirstOrDefaultAsync(e => e.Id == 2); // Cambiar "en preparación" por el ID del estado pendiente
+            if (estadoPendiente == null)
             {
-                throw new Exception("Estado 'en preparacion' no encontrado");
+                throw new Exception("Estado 'pendiente' no encontrado");
             }
 
             // Actualizar el estado y el tiempo estimado
-            pedido.EstadoId = estadoEnPreparacion.Id; // Asignar el nuevo EstadoId      //deberia asignar a 2
+            pedido.EstadoId = estadoPendiente.Id; // Asignar el nuevo EstadoId
             pedido.FechaEstimadaDeFinalizacion = tiempoPreparacion; // Asignar el tiempo estimado
+            pedido.EmpleadoModificadorId = empleadoId; // Asignar el empleado que modifica
 
             // Guardar los cambios en la base de datos
             await _context.SaveChangesAsync();
-
         }
 
+        public async Task CambiarEstadoListoParaServir(string codigoPedido, int empleadoId)
+        {
+            // Buscar el pedido en la base de datos
+            var pedido = await _context.Pedidos.FirstOrDefaultAsync(p => p.CodigoPedido == codigoPedido);
+            if (pedido == null)
+            {
+                throw new Exception("Pedido no encontrado.");
+            }
+
+            // Obtener el estado "listo para servir"
+            var estadoListoParaServir = await _context.EstadoPedido
+                .FirstOrDefaultAsync(e => e.Descripcion == "listo para servir");
+            if (estadoListoParaServir == null)
+            {
+                throw new Exception("Estado 'listo para servir' no encontrado.");
+            }
+
+            // Cambiar el estado a "listo para servir"
+            pedido.EstadoId = estadoListoParaServir.Id; // Cambiar a "listo para servir"
+            pedido.FechaFinalizacion = DateTime.Now; // Establecer fecha de finalización
+            pedido.EmpleadoModificadorId = empleadoId;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException ex)
+            {
+                throw new Exception("Error al actualizar el pedido.", ex);
+            }
+        }
 
 
 

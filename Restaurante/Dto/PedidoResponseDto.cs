@@ -8,6 +8,9 @@
         public int Cantidad { get; set; }
         public DateTime FechaCreacion { get; set; }
         public DateTime? FechaFinalizacion { get; set; }
-        
+
+        public string CodigoPedido { get; set; }    
+
+
     }
 }

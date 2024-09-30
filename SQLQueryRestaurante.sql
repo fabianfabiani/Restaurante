@@ -1,5 +1,5 @@
 
-use RestauranteAWS
+use RestauranteC;
 
 /****************************/
 insert into EstadoMesa(Descripcion)
@@ -14,9 +14,11 @@ select * from EstadoMesa
 /************************/
 insert into EstadoPedido(Descripcion)
   values
+		('cliente esperando pedido')
 		('pendiente'),
-		('en preparacion'),
-		('finalizado');
+		('listo para servir');
+		
+		/*('finalizado')*/;
 
 select * from EstadoPedido
 
@@ -58,25 +60,6 @@ select * from Sectores
 	Select * from Empleados
 
 
-/* 7 de septiembre.
-******IMPORTANTE 1 *******
-Se agregaron mesas con su descripcion por ejemplo 'Mesa para 4'
-Estas tienen una relacion de una a muchas con EstadoMesas, lo que significa que la mesa puede estar 
-cliente esperando pedido
-cliente comiendo
-cliente pagando
-cerrada
-Para nuestra logica y para no generar otro campo más como podria ser: Mesa 'Libre', vamos a tomar que cuando creamos
-una Mesa nos cree el campo
-EstadoMesaId = 4
-
-*****IMPORTANTE 2 *******
-Modificamos la tabla para que por default sea 4 (cerrada)
-La idea es que cuando se cree una nueva comanda , se supone que esa mesa esta libre (cerrada)
-entonces pase al estado 1 (cliente esperando pedido)
-Dentro de la creacion de comanda no tenemos el campo EstadoMesa, pero cuando se ejecute la una nueva comanda deberia ejecutarse una 
-logica que nos modifique esa mesa o haga un Update en la tabla Mesas en el campo EstadoMesaId = 1 ("cliente esperando pedido") 
-*/
 ALTER TABLE Mesas
 ADD CONSTRAINT DF_Mesas_EstadoMesaId DEFAULT 1 FOR EstadoMesaId;
 
@@ -109,9 +92,7 @@ values
 		(4,'Flan',15,2500),
 		(4,'Tiramisu',15,2500),
 		(4,'Helado',15,2500);
-select * from Productos
-
-
+select * from Productos;
 
 /* IMPORTANTE 3 
 Nota:
@@ -130,3 +111,28 @@ Cantidad: La cantidad del producto solicitado.
 FechaCreacion : Se auto completa con la fecha del dia generado el pedido.
 */
 
+
+/* 7 de septiembre.
+******IMPORTANTE 1 *******
+Se agregaron mesas con su descripcion por ejemplo 'Mesa para 4'
+Estas tienen una relacion de una a muchas con EstadoMesas, lo que significa que la mesa puede estar 
+cliente esperando pedido
+cliente comiendo
+cliente pagando
+cerrada
+Para nuestra logica y para no generar otro campo más como podria ser: Mesa 'Libre', vamos a tomar que cuando creamos
+una Mesa nos cree el campo
+EstadoMesaId = 4
+
+*****IMPORTANTE 2 *******
+Modificamos la tabla para que por default sea 4 (cerrada)
+La idea es que cuando se cree una nueva comanda , se supone que esa mesa esta libre (cerrada)
+entonces pase al estado 1 (cliente esperando pedido)
+Dentro de la creacion de comanda no tenemos el campo EstadoMesa, pero cuando se ejecute la una nueva comanda deberia ejecutarse una 
+logica que nos modifique esa mesa o haga un Update en la tabla Mesas en el campo EstadoMesaId = 1 ("cliente esperando pedido") 
+*/
+
+/*
+formato DateTime
+2024-09-22T14:30:00
+*/
