@@ -7,15 +7,16 @@ values
 	('cliente esperando pedido'),
 	('cliente comiendo'),
 	('cliente pagando'),
-	('cerrada');
+	('cerrada'),
+	('vacia');
 
 select * from EstadoMesa
 
 /************************/
 insert into EstadoPedido(Descripcion)
   values
-		('cliente esperando pedido')
-		('pendiente'),
+		('pendiente')
+		('en preparacion'),
 		('listo para servir');
 		
 		/*('finalizado')*/;
@@ -61,7 +62,7 @@ select * from Sectores
 
 
 ALTER TABLE Mesas
-ADD CONSTRAINT DF_Mesas_EstadoMesaId DEFAULT 1 FOR EstadoMesaId;
+ADD CONSTRAINT DF_Mesas_EstadoMesaId DEFAULT 5 FOR EstadoMesaId; /*cambie a 5 "vacia"
 
 /*cargamos Mesas*/
  insert into Mesas(Nombre)

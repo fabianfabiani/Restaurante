@@ -29,18 +29,21 @@ namespace Restaurante.Service
         }
         public async Task CrearMesa([FromBody] MesaRequestDto mesa)
         {
-            // Verificar si el EstadoMesaId existe en la base de datos
-            Mesa? m = _context.Mesas.Where(m => m.EstadoMesaId == mesa.EstadoMesaId).FirstOrDefault();
-
-            if (m == null)
-            {
-                throw new Exception("EstadoMesaId inexistente");
-            }
+           
 
             var nuevaMesa = _mapper.Map<Mesa>(mesa);
+            nuevaMesa.EstadoMesaId = 5;
             _context.Mesas.Add(nuevaMesa);
             await _context.SaveChangesAsync();
 
         }
     }
 }
+
+// Verificar si el EstadoMesaId existe en la base de datos
+//Mesa? m = _context.Mesas.Where(m => m.EstadoMesaId == mesa.EstadoMesaId).FirstOrDefault();
+/*Mesa? m = _context.Mesas.Where(m => m.Id == mesa.Id).FirstOrDefault();
+if (m == null)
+{
+    throw new Exception("EstadoMesaId inexistente");
+}*/

@@ -14,7 +14,6 @@ namespace Restaurante.Mappers
             CreateMap<MesaListarDTO, Mesa>()
                 .ReverseMap()
                 .ForMember(dest => dest.Estado, opt => opt.MapFrom(src => src.EstadoMesa.Descripcion));
-
         }
     }
 }

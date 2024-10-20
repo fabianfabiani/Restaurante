@@ -32,8 +32,5 @@ namespace Restaurante.Entities
 
         public string CodigoPedido { get; set; } // Nueva propiedad para el código
         public int EmpleadoModificadorId { get; set; } //Nueva Propiedad para guardar empleado que realiza cambios
-
     }
-
-    
 }

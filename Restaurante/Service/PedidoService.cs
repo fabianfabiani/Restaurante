@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Azure.Messaging;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.EntityFrameworkCore;
 using Restaurante.Data;
 using Restaurante.Dto;
@@ -25,6 +27,9 @@ namespace Restaurante.Service
                 .Include(c => c.Producto)  
                 .Include(c => c.EstadoPedido)
                 .Include(c => c.Producto.Sector)
+                .Include(c => c.Comanda)
+                .ThenInclude(comanda => comanda.Mesa)
+                .ThenInclude(mesa => mesa.EstadoMesa)
                 .ToListAsync();
 
             
@@ -32,8 +37,6 @@ namespace Restaurante.Service
 
             return respuesta;
         }
-
-     
 
         public async Task<string> CrearPedido(PedidoRequestDto pedido)
         {
@@ -53,6 +56,7 @@ namespace Restaurante.Service
             nuevoPedido.EmpleadoModificadorId = pedido.EmpleadoId;
 
             _context.Pedidos.Add(nuevoPedido);
+            //Guarda todos los cambios en la base de datos
             await _context.SaveChangesAsync();
 
             return nuevoPedido.CodigoPedido; // Retorna el código generado
@@ -209,8 +213,168 @@ namespace Restaurante.Service
             }
         }
 
+        //public async Task<PedidoListarDTO> ObtenerTiempoDeDemora(int mesaId, string codigoPedido)
+        public async Task<string> ObtenerTiempoDeDemora(int mesaId, string codigoPedido)
+        {
+            // Buscar el pedido en base a mesaId y codigoPedido
+            var pedido = await _context.Pedidos
+                .Include(p => p.Comanda) // Incluye la relación para obtener el nombre del cliente
+                .Include(p => p.EstadoPedido) // Incluye el estado del pedido
+                .Include(p => p.Producto.Sector) // Incluye el sector del producto
+                .FirstOrDefaultAsync(p => p.Comanda.MesaId == mesaId && p.CodigoPedido == codigoPedido);
 
+            if (pedido == null)
+            {
+                throw new Exception("Pedido no encontrado.");
+            }
+            if(pedido.EstadoPedido.Id== 3)
+            {
+                return $"El pedido {pedido.CodigoPedido} ya fue entregado";
+            }
+            else
+            {
+                // Mapeo de Pedido a PedidoListarDTO usando AutoMapper
+                var pedidoDTO = _mapper.Map<PedidoListarDTO>(pedido);
 
+                // Retorna el DTO con la información del pedido, nombre del cliente y tiempo transcurrido
+                pedidoDTO.nombreCliente = pedido.Comanda.nombreCliente;
+
+                // return pedidoDTO;
+                return $"{pedidoDTO.nombreCliente}, el tiempo de demora de su pedido {pedidoDTO.CodigoPedido} es: {pedidoDTO.TiempoTranscurrido}";
+            }
+        }
+
+        public async Task<List<PedidoListarDTO>> GetPedidosEnPreparacionConDemoras()
+        {
+            // Obtener los pedidos con EstadoId == 2 (En preparación)
+            var pedidos = await _context.Pedidos
+                .Include(p => p.EstadoPedido)
+                .Where(p => p.EstadoId == 2) // Filtrar por el estado "En preparación"
+                .ToListAsync();
+
+            // Mapear la lista completa de pedidos a PedidoListarDTO
+            var pedidosConDemoras = pedidos.Select(p => new PedidoListarDTO
+            {
+                CodigoPedido = p.CodigoPedido,
+                FechaEstimadaDeFinalizacion = p.FechaEstimadaDeFinalizacion,
+                FechaFinalizacion = p.FechaFinalizacion
+            }).ToList();
+
+            return pedidosConDemoras;
+        }
+
+        public async Task<ActionResult<string>> SiListoParaServirCambiarEstadoMesa(int mesaId)
+        {
+            var pedidosMesa = await _context.Pedidos
+                .Include(p => p.Comanda)
+                .Where(p => p.Comanda.MesaId == mesaId)
+                .ToListAsync();
+
+            // Verificar si no existen pedidos para la mesa solicitada
+            if (!pedidosMesa.Any())
+            {
+                return "No existen pedidos en la mesa solicitada.";
+            }
+
+            // Verificar si hay algún pedido en estado "en preparación" (EstadoId == 2) o "pendiente" (Estado == 1)
+            if (pedidosMesa.Any(p => p.EstadoId == 2 || p.EstadoId == 1))
+            {
+                return "Aún faltan entregar pedidos.";
+            }
+
+            // Verificar si todos los pedidos están listos para servir (EstadoId == 3)
+            if (pedidosMesa.All(p => p.EstadoId == 3))
+            {
+                var mesa = await _context.Mesas.FindAsync(mesaId);
+                if (mesa != null)
+                {
+                    mesa.EstadoMesaId = 2; // Cambiar estado a "cliente comiendo"
+                    _context.Mesas.Update(mesa);
+                    await _context.SaveChangesAsync();
+                    return "Estado de la mesa actualizado a 'cliente comiendo'.";
+                }
+            }
+
+            if (pedidosMesa.Any(p => p.EstadoId == 4))
+            {
+                return "Mesa cerrada, no hay pedidos!";
+            }
+
+            return "No hay pedidos listos para servir o la mesa no existe.";
+        }
+
+        public async Task<ActionResult<float>> CambiarEstadoMesaYCalcularTotal(string codigoComanda)
+        {
+            // Buscar la comanda por el código
+            var comanda = await _context.Comandas
+                .Include(c => c.Mesa)
+                .Include(c => c.Mesa.EstadoMesa) // Incluir el estado de la mesa
+                .FirstOrDefaultAsync(c => c.codigoComanda == codigoComanda);
+
+            if (comanda == null)
+            {
+                throw new Exception("No se encontró la comanda.");
+            }
+
+            // Verificar si el estado de la mesa es "cliente comiendo"
+            if (comanda.Mesa.EstadoMesaId != 2) // Id 2 = "cliente comiendo"
+            {
+                throw new Exception("El cliente aún no está en estado 'cliente comiendo'.");
+            }
+
+            // Obtener todos los pedidos asociados a la comanda
+            var pedidos = await _context.Pedidos
+                .Include(p => p.Producto)
+                .Where(p => p.ComandaId == comanda.Id)
+                .ToListAsync();
+
+            if (!pedidos.Any())
+            {
+                throw new Exception("No se encontraron pedidos asociados a esta comanda.");
+            }
+
+            // Calcular el total de los pedidos
+            float total = pedidos.Sum(p => p.Cantidad * p.Producto.Precio);
+
+            // Cambiar el estado de la mesa a "cliente pagando"
+            comanda.Mesa.EstadoMesaId = 3; // Id 3 = "cliente pagando"
+            _context.Mesas.Update(comanda.Mesa);
+
+            // Guardar los cambios en la base de datos
+            await _context.SaveChangesAsync();
+
+            // Devolver el total calculado
+            return total;
+        }
+
+        public async Task<string> CambiarEstadoMesaCerrada(string codigoComanda)
+        {
+            var comanda = await _context.Comandas
+                .Include(c => c.Mesa)
+                .Include(c => c.Mesa.EstadoMesa)
+                .FirstOrDefaultAsync(c => c.codigoComanda == codigoComanda);
+
+            if (comanda == null)
+            {
+                throw new Exception("Comanda no existe.");
+            }
+
+            if (comanda.Mesa.EstadoMesaId == 4)
+            {
+                throw new Exception("La mesa ya está cerrada.");
+            }
+
+            if (comanda.Mesa.EstadoMesaId == 3)
+            {
+                // Cambiar el estado de la mesa a "cerrada"
+                comanda.Mesa.EstadoMesaId = 4;
+                _context.Mesas.Update(comanda.Mesa);
+                await _context.SaveChangesAsync();
+                return "La mesa ha sido cerrada correctamente.";
+            }
+            return "No se pudo cerrar la mesa ya que no esta en estado 'cliente pagando'.";
+
+        }
 
 
 

@@ -23,6 +23,11 @@ namespace Restaurante.Controllers
         {
             
             var mesaResponseDto = await _mesaService.GeTAll();
+            if (mesaResponseDto == null)
+            {
+                return NotFound("Nose encontraron mesas.");
+            }
+
             return Ok(new { Message = "Listado de mesas", Mesas = mesaResponseDto});
         }
         

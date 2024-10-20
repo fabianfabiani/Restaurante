@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\RestauranteCarlos\\AWS-Restaurante-master\\Restaurante\\Restaurante.csproj": {}
+    "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\Restaurante\\Restaurante\\Restaurante.csproj": {}
   },
   "projects": {
-    "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\RestauranteCarlos\\AWS-Restaurante-master\\Restaurante\\Restaurante.csproj": {
+    "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\Restaurante\\Restaurante\\Restaurante.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\RestauranteCarlos\\AWS-Restaurante-master\\Restaurante\\Restaurante.csproj",
+        "projectUniqueName": "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\Restaurante\\Restaurante\\Restaurante.csproj",
         "projectName": "Restaurante",
-        "projectPath": "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\RestauranteCarlos\\AWS-Restaurante-master\\Restaurante\\Restaurante.csproj",
+        "projectPath": "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\Restaurante\\Restaurante\\Restaurante.csproj",
         "packagesPath": "C:\\Users\\Oeste\\.nuget\\packages\\",
-        "outputPath": "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\RestauranteCarlos\\AWS-Restaurante-master\\Restaurante\\obj\\",
+        "outputPath": "D:\\DocumentosD\\ISTEA\\5°cuatrimestre\\Restaurante\\Restaurante\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

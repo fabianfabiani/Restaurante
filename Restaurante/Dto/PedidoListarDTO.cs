@@ -11,7 +11,7 @@
         public DateTime? FechaEstimadaDeFinalizacion { get; set; }
         public string TiempoTranscurrido => this.ObtenerTiempoRestanteOExcedente();
         public string Sector { get; set; }
-
+        public string nombreCliente { get; set; } // Agregado el nombre del cliente
         private string ObtenerTiempoRestanteOExcedente()
         {
             if (this.FechaEstimadaDeFinalizacion != null)
@@ -37,6 +37,8 @@
         }
 
         public string CodigoPedido { get; set; }
+
+       public string EstadoMesa { get; set; }
     }
 
 }

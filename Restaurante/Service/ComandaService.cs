@@ -30,7 +30,15 @@ namespace Restaurante.Service
                 .Include(x => x.EstadoMesa)
                 .FirstOrDefaultAsync(m => m.Id == nuevaComanda.MesaId);
 
-            
+            // Cambia el estado de la mesa a "cliente esperando pedido"
+            if (mesaConEstado != null)
+            {
+                mesaConEstado.EstadoMesaId = 1; //"cliente esperando pedido"
+                _context.Mesas.Update(mesaConEstado);
+                await _context.SaveChangesAsync();
+            }
         }
+
+
     }
 }
