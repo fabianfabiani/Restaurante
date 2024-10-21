@@ -62,7 +62,7 @@ select * from Sectores
 
 
 ALTER TABLE Mesas
-ADD CONSTRAINT DF_Mesas_EstadoMesaId DEFAULT 5 FOR EstadoMesaId; /*cambie a 5 "vacia"
+ADD CONSTRAINT DF_Mesas_EstadoMesaId DEFAULT 5 FOR EstadoMesaId; /*cambie a 5 "vacia"*/
 
 /*cargamos Mesas*/
  insert into Mesas(Nombre)
@@ -137,3 +137,6 @@ logica que nos modifique esa mesa o haga un Update en la tabla Mesas en el campo
 formato DateTime
 2024-09-22T14:30:00
 */
+
+/*Se agrego Filter para el endpoint GetAllPedidos
+solo pueden entrar Socio o Admin a modo de ejemplo

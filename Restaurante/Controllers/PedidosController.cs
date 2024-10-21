@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Restaurante.Data;
 using Restaurante.Dto;
 using Restaurante.Entities;
+using Restaurante.Filters;
 using Restaurante.Interface;
 using Restaurante.Service;
 using System.ComponentModel.DataAnnotations;
@@ -21,6 +22,10 @@ namespace Restaurante.Controllers
             _context = context;
         }
 
+        //Filter aplicado a GetAllPedidos
+        //Para acceder en Postman agrego la ruta ejjemplo https://localhost:7215/api/Pedidos/GetAllPedidos
+        // en Headers Key : Rol y Value : Socio o Admin 
+        [AccessFilter(Enumerables.ERol.Socio, Enumerables.ERol.Admin)]
         [HttpGet("GetAllPedidos")]
         public async Task<ActionResult<List<PedidoRequestDto>>> GetAllPedidos()
         {
