@@ -1,0 +1,920 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\controllers\\mesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\controllers\\mesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\service\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\service\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\interface\\imesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\interface\\imesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\controllers\\informescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\controllers\\informescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\encuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\encuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\mesaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\mesaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\mesarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\mesarequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\mesalistardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\mesalistardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\comanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\comanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\estadomesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\estadomesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\service\\encuestaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\service\\encuestaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\interface\\iencuestaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\interface\\iencuestaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\interface\\iencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\interface\\iencuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\service\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\service\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\crearencuestadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\crearencuestadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\controllers\\encuestacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\controllers\\encuestacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\controllers\\estadopedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\controllers\\estadopedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\ingresoempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\ingresoempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\encuestadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\encuestadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\service\\comandaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\service\\comandaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\controllers\\comandacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\controllers\\comandacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\operacionesporempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\operacionesporempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\operacionesporsectordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\operacionesporsectordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\operacionesporsectorempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\operacionesporsectorempleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\usuarioresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\usuarioresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\restaurante.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\restaurante.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\migrations\\databasecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\enumerables\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\enumerables\\enumerables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\credencialesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\credencialesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\mappers\\usuariomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\mappers\\usuariomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\interface\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\interface\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\usuariorequestcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\usuariorequestcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\usuariorequestupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\usuariorequestupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\interface\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\interface\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\productosvendidosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\productosvendidosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\mappers\\mesamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\mappers\\mesamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\mappers\\pedidomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\mappers\\pedidomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\dto\\pedidolistardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\dto\\pedidolistardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\clasebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\clasebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\entities\\estadopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\entities\\estadopedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\migrations\\20241022023556_final1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\migrations\\20241022023556_final1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|e:\\instituto\\istea\\final\\restaurante-main cma9-12\\restaurante-main\\restaurante\\migrations\\20241205151549_test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBA11185-2FF8-42B5-BA88-2B544CA3CC78}|Restaurante\\Restaurante.csproj|solutionrelative:restaurante\\migrations\\20241205151549_test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMesaService.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Interface\\IMesaService.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Interface\\IMesaService.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Interface\\IMesaService.cs",
+              "RelativeToolTip": "Restaurante\\Interface\\IMesaService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAASwBUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EncuestaService.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Service\\EncuestaService.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Service\\EncuestaService.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Service\\EncuestaService.cs",
+              "RelativeToolTip": "Restaurante\\Service\\EncuestaService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:05:05.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MesaService.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Service\\MesaService.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Service\\MesaService.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Service\\MesaService.cs",
+              "RelativeToolTip": "Restaurante\\Service\\MesaService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataBaseContext.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Data\\DataBaseContext.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Data\\DataBaseContext.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Data\\DataBaseContext.cs",
+              "RelativeToolTip": "Restaurante\\Data\\DataBaseContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:05:54.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEncuestaService.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Interface\\IEncuestaService.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Interface\\IEncuestaService.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Interface\\IEncuestaService.cs",
+              "RelativeToolTip": "Restaurante\\Interface\\IEncuestaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:06:29.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Comanda.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Comanda.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\Comanda.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Comanda.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\Comanda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MesasController.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\MesasController.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Controllers\\MesasController.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\MesasController.cs",
+              "RelativeToolTip": "Restaurante\\Controllers\\MesasController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwF8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:48:48.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EstadoMesa.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\EstadoMesa.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\EstadoMesa.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\EstadoMesa.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\EstadoMesa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:30:57.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Encuesta.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Encuesta.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\Encuesta.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Encuesta.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\Encuesta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:09:21.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InformesController.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\InformesController.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Controllers\\InformesController.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\InformesController.cs",
+              "RelativeToolTip": "Restaurante\\Controllers\\InformesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:48:19.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mesa.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Mesa.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\Mesa.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Mesa.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\Mesa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MesaListarDTO.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\MesaListarDTO.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\MesaListarDTO.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\MesaListarDTO.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\MesaListarDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:14:00.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MesaResponseDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\MesaResponseDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\MesaResponseDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\MesaResponseDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\MesaResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:14:09.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EstadoPedidoController.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\EstadoPedidoController.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Controllers\\EstadoPedidoController.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\EstadoPedidoController.cs",
+              "RelativeToolTip": "Restaurante\\Controllers\\EstadoPedidoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:47:21.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MesaRequestDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\MesaRequestDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\MesaRequestDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\MesaRequestDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\MesaRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEncuesta.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Interface\\IEncuesta.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Interface\\IEncuesta.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Interface\\IEncuesta.cs",
+              "RelativeToolTip": "Restaurante\\Interface\\IEncuesta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:10:55.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Service\\PedidoService.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Service\\PedidoService.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Service\\PedidoService.cs",
+              "RelativeToolTip": "Restaurante\\Service\\PedidoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:13.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CrearEncuestaDTO.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\CrearEncuestaDTO.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\CrearEncuestaDTO.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\CrearEncuestaDTO.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\CrearEncuestaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T12:16:45.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EncuestaController.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\EncuestaController.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Controllers\\EncuestaController.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\EncuestaController.cs",
+              "RelativeToolTip": "Restaurante\\Controllers\\EncuestaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:53:37.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Controllers\\PedidosController.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "Restaurante\\Controllers\\PedidosController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:13.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IngresoEmpleadoDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\IngresoEmpleadoDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\IngresoEmpleadoDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\IngresoEmpleadoDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\IngresoEmpleadoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EncuestaDTO.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\EncuestaDTO.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\EncuestaDTO.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\EncuestaDTO.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\EncuestaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:56:09.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UsuarioResponseDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\UsuarioResponseDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\UsuarioResponseDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\UsuarioResponseDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\UsuarioResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\appsettings.json",
+              "RelativeDocumentMoniker": "Restaurante\\appsettings.json",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\appsettings.json",
+              "RelativeToolTip": "Restaurante\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T15:07:14.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ComandaService.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Service\\ComandaService.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Service\\ComandaService.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Service\\ComandaService.cs",
+              "RelativeToolTip": "Restaurante\\Service\\ComandaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:06:40.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Program.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Program.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Program.cs",
+              "RelativeToolTip": "Restaurante\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:13.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Service\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Service\\UsuarioService.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Service\\UsuarioService.cs",
+              "RelativeToolTip": "Restaurante\\Service\\UsuarioService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:13.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Restaurante\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Restaurante\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T16:50:58.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ComandaController.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\ComandaController.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Controllers\\ComandaController.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\ComandaController.cs",
+              "RelativeToolTip": "Restaurante\\Controllers\\ComandaController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Controllers\\UsuariosController.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Restaurante\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:13.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OperacionesPorSectorEmpleadoDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\OperacionesPorSectorEmpleadoDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\OperacionesPorSectorEmpleadoDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\OperacionesPorSectorEmpleadoDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\OperacionesPorSectorEmpleadoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OperacionesPorSectorDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\OperacionesPorSectorDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\OperacionesPorSectorDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\OperacionesPorSectorDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\OperacionesPorSectorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Enumerables.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Enumerables\\Enumerables.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Enumerables\\Enumerables.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Enumerables\\Enumerables.cs",
+              "RelativeToolTip": "Restaurante\\Enumerables\\Enumerables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:44:36.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OperacionesPorEmpleadoDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\OperacionesPorEmpleadoDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\OperacionesPorEmpleadoDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\OperacionesPorEmpleadoDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\OperacionesPorEmpleadoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DataBaseContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Migrations\\DataBaseContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Migrations\\DataBaseContextModelSnapshot.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Migrations\\DataBaseContextModelSnapshot.cs",
+              "RelativeToolTip": "Restaurante\\Migrations\\DataBaseContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:45:12.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Restaurante",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Restaurante.csproj",
+              "RelativeDocumentMoniker": "Restaurante\\Restaurante.csproj",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Restaurante.csproj",
+              "RelativeToolTip": "Restaurante\\Restaurante.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T16:50:55.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20241205151549_test1.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Migrations\\20241205151549_test1.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Migrations\\20241205151549_test1.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Migrations\\20241205151549_test1.cs",
+              "RelativeToolTip": "Restaurante\\Migrations\\20241205151549_test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:15:49.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Interface\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Interface\\IUsuarioService.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Interface\\IUsuarioService.cs",
+              "RelativeToolTip": "Restaurante\\Interface\\IUsuarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:13.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Rol.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\Rol.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Rol.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:13.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CredencialesDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\CredencialesDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\CredencialesDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\CredencialesDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\CredencialesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:13.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\Usuario.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:13.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\JwtSettings.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\JwtSettings.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UsuarioMapper.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Mappers\\UsuarioMapper.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Mappers\\UsuarioMapper.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Mappers\\UsuarioMapper.cs",
+              "RelativeToolTip": "Restaurante\\Mappers\\UsuarioMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:13.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20241022023556_Final1.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Migrations\\20241022023556_Final1.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Migrations\\20241022023556_Final1.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Migrations\\20241022023556_Final1.cs",
+              "RelativeToolTip": "Restaurante\\Migrations\\20241022023556_Final1.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Producto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\Producto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Producto.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UsuarioRequestCreateDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\UsuarioRequestCreateDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\UsuarioRequestCreateDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\UsuarioRequestCreateDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\UsuarioRequestCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UsuarioRequestUpdateDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\UsuarioRequestUpdateDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\UsuarioRequestUpdateDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\UsuarioRequestUpdateDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\UsuarioRequestUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IPedidoService.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Interface\\IPedidoService.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Interface\\IPedidoService.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Interface\\IPedidoService.cs",
+              "RelativeToolTip": "Restaurante\\Interface\\IPedidoService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProductosVendidosDto.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\ProductosVendidosDto.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\ProductosVendidosDto.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\ProductosVendidosDto.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\ProductosVendidosDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\Pedido.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\Pedido.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\Pedido.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PedidoMapper.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Mappers\\PedidoMapper.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Mappers\\PedidoMapper.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Mappers\\PedidoMapper.cs",
+              "RelativeToolTip": "Restaurante\\Mappers\\PedidoMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "MesaMapper.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Mappers\\MesaMapper.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Mappers\\MesaMapper.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Mappers\\MesaMapper.cs",
+              "RelativeToolTip": "Restaurante\\Mappers\\MesaMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PedidoListarDTO.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\PedidoListarDTO.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Dto\\PedidoListarDTO.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Dto\\PedidoListarDTO.cs",
+              "RelativeToolTip": "Restaurante\\Dto\\PedidoListarDTO.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAqwCgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ClaseBase.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\ClaseBase.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\ClaseBase.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\ClaseBase.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\ClaseBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "EstadoPedido.cs",
+              "DocumentMoniker": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\EstadoPedido.cs",
+              "RelativeDocumentMoniker": "Restaurante\\Entities\\EstadoPedido.cs",
+              "ToolTip": "E:\\Instituto\\istea\\Final\\Restaurante-main CMA9-12\\Restaurante-main\\Restaurante\\Entities\\EstadoPedido.cs",
+              "RelativeToolTip": "Restaurante\\Entities\\EstadoPedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:07:14.207Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

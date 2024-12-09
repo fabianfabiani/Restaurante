@@ -1,0 +1,361 @@
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\appsettings.Development.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\appsettings.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Restaurante.exe
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Restaurante.deps.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Restaurante.runtimeconfig.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Restaurante.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Restaurante.pdb
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\AutoMapper.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Azure.Core.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Azure.Identity.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Humanizer.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.CodeDom.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.Memory.Data.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.Text.Json.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.csproj.AssemblyReference.cache
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.GeneratedMSBuildEditorConfig.editorconfig
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.AssemblyInfoInputs.cache
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.AssemblyInfo.cs
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.csproj.CoreCompileInputs.cache
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.MvcApplicationPartsAssemblyInfo.cs
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.MvcApplicationPartsAssemblyInfo.cache
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.Restaurante.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.build.Restaurante.props
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Restaurante.props
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Restaurante.props
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\staticwebassets.pack.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\staticwebassets.build.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\staticwebassets.development.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\scopedcss\bundle\Restaurante.styles.css
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.csproj.CopyComplete
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\refint\Restaurante.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.pdb
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\Restaurante.genruntimeconfig.cache
+D:\DocumentosD\ISTEA\5°cuatrimestre\RestauranteCarlos\AWS-Restaurante-master\Restaurante\obj\Debug\net6.0\ref\Restaurante.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\appsettings.Development.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\appsettings.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Restaurante.exe
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Restaurante.deps.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Restaurante.runtimeconfig.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Restaurante.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Restaurante.pdb
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\AutoMapper.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Azure.Core.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Azure.Identity.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Humanizer.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.CodeDom.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.Memory.Data.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.Text.Json.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.csproj.AssemblyReference.cache
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.GeneratedMSBuildEditorConfig.editorconfig
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.AssemblyInfoInputs.cache
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.AssemblyInfo.cs
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.csproj.CoreCompileInputs.cache
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.MvcApplicationPartsAssemblyInfo.cs
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.MvcApplicationPartsAssemblyInfo.cache
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.Restaurante.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.build.Restaurante.props
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Restaurante.props
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Restaurante.props
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\staticwebassets.pack.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\staticwebassets.build.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\staticwebassets.development.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\scopedcss\bundle\Restaurante.styles.css
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.csproj.CopyComplete
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\refint\Restaurante.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.pdb
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\Restaurante.genruntimeconfig.cache
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\obj\Debug\net6.0\ref\Restaurante.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\libman.json
+D:\DocumentosD\ISTEA\5°cuatrimestre\Restaurante\Restaurante\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\appsettings.Development.json
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\appsettings.json
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\libman.json
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Restaurante.exe
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Restaurante.deps.json
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Restaurante.runtimeconfig.json
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Restaurante.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Restaurante.pdb
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\AutoMapper.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Azure.Core.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Azure.Identity.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Humanizer.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.CodeDom.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Text.Json.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.csproj.AssemblyReference.cache
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.GeneratedMSBuildEditorConfig.editorconfig
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.AssemblyInfoInputs.cache
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.AssemblyInfo.cs
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.csproj.CoreCompileInputs.cache
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.MvcApplicationPartsAssemblyInfo.cs
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.MvcApplicationPartsAssemblyInfo.cache
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets.build.json
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets.development.json
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.Restaurante.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.build.Restaurante.props
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Restaurante.props
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Restaurante.props
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\scopedcss\bundle\Restaurante.styles.css
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaura.9D27851C.Up2Date
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\refint\Restaurante.dll
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.pdb
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.genruntimeconfig.cache
+E:\Instituto\istea\Final\Restaurante-main (1)\Restaurante-main\Restaurante\obj\Debug\net6.0\ref\Restaurante.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\appsettings.Development.json
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\appsettings.json
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\libman.json
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Restaurante.exe
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Restaurante.deps.json
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Restaurante.runtimeconfig.json
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Restaurante.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Restaurante.pdb
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\AutoMapper.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Azure.Core.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Azure.Identity.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Humanizer.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Mono.TextTemplating.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.CodeDom.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Memory.Data.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Text.Json.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.csproj.AssemblyReference.cache
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.GeneratedMSBuildEditorConfig.editorconfig
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.AssemblyInfoInputs.cache
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.AssemblyInfo.cs
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.csproj.CoreCompileInputs.cache
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.MvcApplicationPartsAssemblyInfo.cs
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.MvcApplicationPartsAssemblyInfo.cache
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets.build.json
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets.development.json
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.Restaurante.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.build.Restaurante.props
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Restaurante.props
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Restaurante.props
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\staticwebassets.pack.json
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\scopedcss\bundle\Restaurante.styles.css
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaura.9D27851C.Up2Date
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\refint\Restaurante.dll
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.pdb
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\Restaurante.genruntimeconfig.cache
+E:\Instituto\istea\Final\Restaurante-main CMA9-12\Restaurante-main\Restaurante\obj\Debug\net6.0\ref\Restaurante.dll
